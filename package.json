@@ -5,9 +5,12 @@
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/provider-upload-cloudinary": "^4.10.6",
     "@strapi/strapi": "4.10.5",
+    // "cloudinary": "1.37.0",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "mysql": "2.18.1"
+    "mysql": "2.18.1",
+    "strapi-plugin-upload": "^3.6.11",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
   },
   "name": "backend",
   "private": true,
