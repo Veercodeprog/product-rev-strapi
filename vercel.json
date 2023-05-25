@@ -1,22 +1,22 @@
-{
-    "version": 2,
-    "builds": [
-        {
-            "src": "./index.js",
-            "use": "@vercel/node",
-            "config": {
-                "command": "/bin/hostname"
-            }
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> parent of e21127e (cloudinary added)
+// {
+//     "version": 2,
+//     "builds": [
+//         {
+//             "src": "./index.js",
+//             "use": "@vercel/node",
+//             "config": {
+//                 "command": "/bin/hostname"
+//             }
+//         }
+//     ],
+//     "routes": [
+//         {
+//             "src": "/(.*)",
+//             "dest": "/"
+//         }
+//     ]
+// <<<<<<< HEAD
+// }
+// =======
+// }
+// >>>>>>> parent of e21127e (cloudinary added)
