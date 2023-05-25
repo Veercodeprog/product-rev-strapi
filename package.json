@@ -7,9 +7,7 @@
     "@strapi/strapi": "4.10.5",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "mysql": "2.18.1",
-    "strapi-plugin-upload": "^3.6.11",
-    "strapi-provider-upload-cloudinary": "^3.6.11"
+    "mysql": "2.18.1"
   },
   "name": "backend",
   "private": true,
