@@ -49,18 +49,6 @@
       "relation": "manyToOne",
       "target": "api::writer.writer",
       "inversedBy": "articles"
-    },
-    "comment": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::comment.comment",
-      "mappedBy": "article"
-    },
-    "comments": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::comment.comment",
-      "mappedBy": "articles"
     }
   }
 }

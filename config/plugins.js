@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
       actionOptions: {
         upload: {},
        uploadStream: {
-      folder: env("CLOUDINARY_FOLDER", "portfolio"),
+      folder: env("CLOUDINARY_FOLDER"),
     },
         delete: {},
       },
