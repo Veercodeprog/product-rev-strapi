@@ -7,7 +7,8 @@
     "@strapi/strapi": "4.10.5",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "mysql": "2.18.1"
+    "mysql": "2.18.1",
+    "strapi-plugin-comments": "^2.2.10"
   },
   "name": "backend",
   "private": true,
