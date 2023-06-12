@@ -3,13 +3,13 @@ module.exports = ({ env }) => ({
     enabled: true,
     config: {
       badWords: false,
-      moderatorRoles: ["Authenticated"],
+       moderatorRoles: [],
       approvalFlow: ["api::article.article"],
       entryLabel: {
         "*": ["Title", "title", "Name", "name", "Subject", "subject"],
         "api::article.article": ["MyField"],
       },
-      // blockedAuthorProps: ["name", "email"],
+      blockedAuthorProps: ["name", "email"],
       reportReasons: {
         MY_CUSTOM_REASON: "MY_CUSTOM_REASON",
       },

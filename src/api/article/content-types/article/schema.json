@@ -49,6 +49,9 @@
       "relation": "manyToOne",
       "target": "api::writer.writer",
       "inversedBy": "articles"
+    },
+    "is_featured": {
+      "type": "boolean"
     }
   }
 }
